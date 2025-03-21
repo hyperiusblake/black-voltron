@@ -84,7 +84,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #d0d0d0;
+		background-image: url("images/bg.jpg");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1793,6 +1794,7 @@ input, select, textarea {
 
 	header.major h2 {
 		font-size: 2em;
+		text-align: center;
 	}
 
 	#three, #four {
