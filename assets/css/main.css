@@ -9,7 +9,13 @@ ul {
   list-style-type: none;
 }
 
+.shows-section {
+  text-align: center;
+}
 
+.shows-section p {
+  margin: 8px 0;
+}
 
 /* W3.CSS 5.02 March 31 2025 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
