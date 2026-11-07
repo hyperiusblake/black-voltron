@@ -1,0 +1,30 @@
+replace
+<div class="placeholder large">BAND PHOTO</div>
+
+
+with
+<img
+  class="media-image"
+  src="images/band-photo.jpg"
+  alt="Black Voltron performing live"
+>
+
+replace
+<div class="placeholder large">FEATURED LIVE VIDEO</div>
+
+with
+<div class="video-frame">
+  <iframe
+    src="https://www.youtube.com/embed/VIDEO_ID"
+    title="Black Voltron live performance"
+    allowfullscreen
+  ></iframe>
+</div>
+
+video of my own?
+<div class="video-frame">
+  <video controls playsinline preload="metadata">
+    <source src="videos/black-voltron-live.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+</div>
